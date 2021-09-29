@@ -1,7 +1,7 @@
-import React, { useCallback, useState } from "react";
-import "./movieCard.tsx";
-import "./App.css";
-import MovieCard, { MovieType } from "./movieCard";
+import React, { useState } from "react";
+import "./components/MovieCard.tsx";
+import "./styles/App.css";
+import MovieCard, { MovieType } from "./components/MovieCard";
 
 export default function SearchMovies() {
   //states - input query, movies
